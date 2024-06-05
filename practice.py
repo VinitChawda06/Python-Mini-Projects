@@ -9,10 +9,3 @@
 
 # Test cases
 # spam = ['apples', 'bananas', 'tofu', 'cats']
-
-spam = ['apples', 99, 'tofu', 'cats', [2, 4]]
-
-
-
-for i in spam:
-    print(i)
