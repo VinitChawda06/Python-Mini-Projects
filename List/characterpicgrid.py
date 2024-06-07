@@ -1,3 +1,7 @@
+# Title: Character Picture grid
+# Author: Vinit Chawda
+# Date: 6th June 2024
+
 grid = [['.', '.', '.', '.', '.', '.'],
 ['.', 'O', 'O', '.', '.', '.'],
 ['O', 'O', 'O', 'O', '.', '.'],

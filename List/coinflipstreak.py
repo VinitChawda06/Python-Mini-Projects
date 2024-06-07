@@ -1,3 +1,7 @@
+# Title: Coin Flip streak
+# Author: Vinit Chawda
+# Date: 5th June 2024
+
 import random
 
 numberofstreaks = 0
