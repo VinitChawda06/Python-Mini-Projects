@@ -10,22 +10,10 @@
 # Test cases
 # spam = ['apples', 'bananas', 'tofu', 'cats']
 
-
-birthdays = {'Alice': 'Apr 1', 'Bob': 'Dec 12', 'Carol': 'Mar 4'}
-
-# while True:
-#     print('Enter a name: (blank to quit)')
-#     name = input()
-#     if name == "":
-#         break
-
-#     if name in birthdays:
-#         print(birthdays[name] + ' is the birthdate of ' + name)
-#     else:
-#         print('I do not have birthday information for' + name)
-#         print('Enter Birthdate to add the birthday')
-#         bdate = input()
-#         birthdays[name] = bdate
-#         print('Birthday database updated')
-keys = list(birthdays.keys())
-print(keys)
+import pprint
+message = 'It was a bright cold day'
+count = {}
+for character in message:
+    count.setdefault(character, 0)
+    count[character] = count[character] + 1
+pprint.pprint(count)
