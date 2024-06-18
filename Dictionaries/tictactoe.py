@@ -61,6 +61,7 @@ while move_count < 9:
         turn = 'X'
     winner = check_winner(theboard)
     if winner:
+        printboard(theboard)
         print(f"Yayyyyy! The winner is {winner}")
         break
 
