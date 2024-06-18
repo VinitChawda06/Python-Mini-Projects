@@ -1,3 +1,7 @@
+# Title: Coin Flip streak
+# Author: Vinit Chawda
+# Date: 14th June 2024
+
 theboard = {"topl":' ',"topm":' ',"topr":' ',
             "midl":' ',"midm":' ',"midr":' ',
             "lowl":' ',"lowm":' ',"lowr":' '}
